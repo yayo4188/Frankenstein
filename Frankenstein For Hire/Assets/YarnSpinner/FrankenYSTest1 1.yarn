@@ -1,0 +1,1115 @@
+title: Start1
+
+position: -275,74
+---
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+
+//All values
+<<declare $BP1Count = 0>>
+<<declare $BP2Count = 0>>
+<<declare $BP3Count = 0>>
+
+<<declare $PersonInterragation = 0>>
+<<declare $AllParts = 0>>
+
+<<declare $VCB1 = 0>>
+<<declare $VCB2 = 0>>
+<<declare $VCB3 = 0>>
+
+
+
+Boss: CHASE! Any breakthroughs yet? 
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: no… are you here with more evidence or just laugh at me?
+<<spriteClear SpriteR>>
+Boss: Neither! I bring coffee and help!
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: If the help is you, I don’t want it.
+<<spriteClear SpriteR>>
+Boss: Rude. Why do you have to be so cruel to your old man?
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: YOUR NOT MY REAL DAD! 
+<<spriteClear SpriteR>>
+Boss:...
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: ….. 
+Chase: What’s the help?
+<<spriteClear SpriteR>>
+Boss: I have brought you a friend.
+<<spriteEmote SpriteR ChaseGoober>>
+Chase:..thanks but not relevant.
+<<spriteClear SpriteR>>
+Boss: They will also be working on this case with you from now on.
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: Oh?
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+A small figure steps out from behind Boss. 
+Boss: This is Echo Wollstonecraft. Your new partner in crime.
+Boss: wait..no.. Not in crime. Don’t do crime Chase..
+Boss: I don’t wanna arrest yo-
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: I get it. It's fine. No crime here..
+<<spriteClear SpriteR>>
+Boss: Good
+<<spriteEmote SpriteR ChaseGoober>>
+Chase:...
+<<spriteClear SpriteR>>
+Boss: …
+Boss: ..Anyway.
+Boss: I’ve also got a new approach for you.
+Boss: Hopefully, It will make this case a little more solvable. 
+Boss: Your new prerogative is to focus on three of the victims. Find out why they were there and look into any other points of interest. 
+Boss: Simple!
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: Okay. Who are the victims then?
+<<spriteClear SpriteR>>
+Boss: Well..you saw the state of the crime scene.
+Boss: The cleaners just kinda..sectioned off part of the room and scooped up all the limbs in that section.
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: Please no..
+<<spriteClear SpriteR>>
+Boss: There are probably at least three whole people in there.
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: That doesn’t help with the actual issue.
+Chase: That they are corpses. I need information and leads.
+<<spriteClear SpriteR>>
+Boss: And you will have them, once Echo here gets to work.
+Boss: Now don’t be rude. Introduce yourself! 
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo:… 
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: Hi...I guess we're coworkers now?
+Chase: Nice to meet you, I'm Chase Close junior detect-
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo: I wouldn't say coworkers.
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: AH oh....
+Chase: What would you say then?
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo: I don't know. You’d be a separate department I guess.
+Echo: Unless you're going to help stitch up the cadavers I wouldn't call us coworkers, we just share a basement.
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: Oh okay then that's fair, what's your position na-
+Chase: WAIT CADAVERS?!
+Chase: WE DON’T DEAL WITH THE BODIES! BOSS WHO THE HE-
+<<spriteClear SpriteR>>
+Boss: Calm down junior, Mx Wollstonecraft here is an external contractor who specialises in this sort of thing.
+Boss: Honestly I don't think we would have been able to do much without their involvement but since they offered their skills we might have a chance.
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo: I wouldn't say offered, your goons tore up my practice mid-surgery.
+Echo: If anything I was F-//Cut off again
+<<spriteClear SpriteR>>
+<<spriteClear SpriteL>>
+Boss: Careful there kid, those goons are the ones cashing your 'payment' at the end of this.
+Boss: Play Nice.
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo: ......
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: ...//awkward expression
+Chase: Boss..
+Chase: ..That still doesn't answer the cadaver question.
+Chase: Or how they can help with the case.
+Chase: I don't see how an external can help us at this point.
+Chase: AZIO has the best investigators and forensic pathologists in the country but this is so clearly a lost cause that none of them have been assigned to this case.
+Chase: The scene might as well have been scrubbed clean from top to bottom. The security cameras were disabled during the crime.
+Chase: No witnesses and locked room. I work best with people and motives, not empty air.
+Chase: Vibes-based crime solving is not my oeuvre, unless your new hire is a psychic I doubt they can help.
+Chase: ....No offence.
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo: None taken. Psychics are good for one thing only.
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase:...
+Chase: What are they good for?
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo: Incense recommendations and bluffing in poker.
+//possible joke about owing one money/ a favour
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: ..Good to know. //He is being sincere
+Chase: But my point still stands. We don't have anyone who was even vaguely near the location of the crime to interview.
+<<spriteClear SpriteR>>
+Boss: Wrong again junior. Where are those smarts of yours that got you promoted?
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: I’m starting to think you promoted me to bully me.
+<<spriteClear SpriteR>>
+Boss: We do have witnesses.
+Boss: They're just on ice.
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: Ice?
+Chase: What do you mean 'on ice'? We need people who can talk, not icy poles-
+Chase: -The bodies.
+<<spriteClear SpriteR>>
+Boss: ...//smiling
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: In the freezers..Cadavers..
+Chase: What is Wollstonecraft doing with the victims?
+<<spriteClear SpriteR>>
+Boss: Our mad scientist here is bringing them back for you to interrogate.
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo: From the dead he means.
+Echo: Call me that again and I’ll have to bring you back too.
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase:....
+Chase:...
+Chase: ...this case got transferred to a different department didn't it?
+<<spriteClear SpriteR>>
+Boss: Yep. Along with yourself the moment you accepted that promotion.  
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: ...
+<<spriteClear SpriteR>>
+Boss: You didn't read the contract, did ya?
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo: Rookie mistake.
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: I WAS BUSY WITH THIS!
+<<spriteClear SpriteR>>
+Boss: Do you want me to spell it out for you?
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: Please don't.
+<<spriteClear SpriteR>>
+Boss: Drum roll, please!
+
+//sound effect here
+Boss: You are now a part of AZIO's BSC!
+Boss: The department of supernatural crime!
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: You promoted me to fool around with ghosts?
+<<spriteClear SpriteR>>
+Boss: Nah, relax! We haven't had a ghost case in years.
+Boss: You get to solve anything we can't explain.
+Boss: And make sure the public doesn't hear about it.
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: Fuck.
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+<<jump TutorialBodyAssmble1>>
+//-> DevContol: Skip to cadavar interrogation.
+ // <<jump InterrogationEnd>>
+===
+
+
+title: TutorialBodyAssmble1
+position: 369,178
+---
+//<<disableButton AssmblyEndButton>>
+<<SceneChange ButtonManager Body>>
+<<if $PUNCOUNT is 1>>
+ <<spriteEmote SpriteR ChaseGoober>>
+ Chase: So this is our base of operation.
+ <<spriteClear SpriteR>>
+ <<spriteEmote SpriteL EchoGoober>>
+ Echo: Welcome to the surgery suite. You're in my domain now.
+ Click and drag on a limb to detach it.
+ Reattach it by sticking it in any joint.
+ Press "E" to reset Limbs.
+
+<<elseif dice(5) is 1>>
+  <<spriteClear SpriteR>>
+  <<spriteEmote SpriteL EchoGoober>>
+  Echo: At Least our murderer had some common sense. They made sure to cut at the shoulders.
+  Chase: Why would that make a difference?
+  <<spriteClear SpriteR>>
+  <<spriteEmote SpriteL EchoGoober>>
+  Echo: Because it’s twice as much as work to cut off four-arms.
+  Chase:._.
+  <<elseif dice(5) is 2>>
+  Chase: So..do you have any good pick-up lines?
+  <<spriteClear SpriteR>>
+  <<spriteEmote SpriteL EchoGoober>>
+  Echo: No? Why would 1?
+  Chase: Well..You can’t spell “Necromancer” without “Romance”.
+
+<<elseif dice(5) is 3>>
+  <<spriteClear SpriteR>>
+  <<spriteEmote SpriteL EchoGoober>>
+  Echo: You should stock up on legs while you're here.
+  Chase: Pardon?
+  <<spriteClear SpriteR>>
+  <<spriteEmote SpriteL EchoGoober>>
+  Echo: They might give you a leg up in your career.
+<<elseif dice(5) is 4>>
+  Chase: The victims must have been confused when they died.
+  <<spriteClear SpriteR>>
+  <<spriteEmote SpriteL EchoGoober>>
+  Echo: What makes you say that?
+  Chase: They are all dis-jointed now!
+<<elseif dice(5) is 5>>
+  <<spriteClear SpriteR>>
+  <<spriteEmote SpriteL EchoGoober>>
+  Echo: You know, normally I prefer to work with skeletons.	They tend to stay calm during dissections.
+  Chase: ….
+  <<spriteClear SpriteR>>
+  <<spriteEmote SpriteL EchoGoober>>
+  Echo: Nothing gets under their skin
+<<endif>>
+<<BodyBuild ButtonManager true>>
+<<set $PUNCOUNT = $PUNCOUNT +1 >>
+//<<disableButton DialogueButtonTemp>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+<<enableButton ButtonManager Endassembly>>
+
+//end of dialgue for now
+
+===
+title: Body1LeftArm
+position: -2338,365
+---
+//have the colour of the game change depending on whose parts. will need to code it in
+//replace name with cadavar
+<<spriteEmote SpriteL AureliaGoober>>
+Creature: There was a letter slid under the door. 
+Creature: No clue who it was from but it was for me..
+Creature: It was important I go...can't remember why
+
+//Jumps to next transtion
+<<if $TP == 0>>
+ <<jump INTrans1>>
+<<elseif $TP ==1 >>
+ <<jump INTrans2>>
+<<elseif $TP ==2 >>
+ <<jump INTrans3>>
+<<elseif $TP ==3 >>
+ <<jump INTrans4>>
+<<elseif $TP ==4 >>
+ <<jump INTrans5>>
+<<endif>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+===
+title: Body1RightArm
+position: -2099,359
+---
+<<spriteEmote SpriteL AureliaGoober>>
+Cadaver: I got turned around the way there. Took a left instead of a right.
+Cadaver: Its so far away..
+Cadaver: I'm going to be late..
+Cadaver: No one will find me out here..
+Cadaver: Too far away from the rest of convention to go back and ask for directions. 
+//Jumps to next transtion
+<<if $TP == 0>>
+ <<jump INTrans1>>
+<<elseif $TP ==1 >>
+ <<jump INTrans2>>
+<<elseif $TP ==2 >>
+ <<jump INTrans3>>
+<<elseif $TP ==3 >>
+ <<jump INTrans4>>
+<<elseif $TP ==4 >>
+ <<jump INTrans5>>
+
+<<endif>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+===
+title: Body1LeftLeg
+position: -1871,362
+---
+<<spriteEmote SpriteL AureliaGoober>>
+Cadaver: Oh god I'm late.
+Cadaver: I think its already started.
+Cadaver: Gosh this is embarrassing, I'm the last one here.
+Cadaver: Everyone is just mingling so hopefully I haven't missed anything yet. 
+//Jumps to next transtion
+<<if $TP == 0>>
+ <<jump INTrans1>>
+<<elseif $TP ==1 >>
+ <<jump INTrans2>>
+<<elseif $TP ==2 >>
+ <<jump INTrans3>>
+<<elseif $TP ==3 >>
+ <<jump INTrans4>>
+<<elseif $TP ==4 >>
+ <<jump INTrans5>>
+<<endif>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+===
+title: Body1RightLeg
+position: -1625,359
+---
+<<spriteEmote SpriteL AureliaGoober>>
+Cadaver: I hid by the door..
+Cadaver: Had never been to a lecture like this before.
+Cadaver: Someone spotted me..handed me a drink.
+Cadaver: Long coat and pretty eyes.
+Cadaver: Asked me about my work. 
+//Jumps to next transtion
+<<if $TP == 0>>
+ <<jump INTrans1>>
+<<elseif $TP ==1 >>
+ <<jump INTrans2>>
+<<elseif $TP ==2 >>
+ <<jump INTrans3>>
+<<elseif $TP ==3 >>
+ <<jump INTrans4>>
+<<elseif $TP ==4 >>
+ <<jump INTrans5>>
+<<endif>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+===
+title: Body1Head
+position: -1384,356
+---
+<<spriteEmote SpriteL AureliaGoober>>
+Cadaver: God my head feels weird..
+Cadaver: I feel like I'm going to tip over.
+Cadaver: It was only one drink.
+Cadaver: The door opens behind me but its hard to move out of their way without tripping.
+The creature jolts like they've been struck and their eyes roll back into their head.
+Cadaver: Dark...Cold.
+//Jumps to next transtion
+<<if $TP == 0>>
+ <<jump INTrans1>>
+<<elseif $TP ==1 >>
+ <<jump INTrans2>>
+<<elseif $TP ==2 >>
+ <<jump INTrans3>>
+<<elseif $TP ==3 >>
+ <<jump INTrans4>>
+<<elseif $TP ==4 >>
+ <<jump INTrans5>>
+<<endif>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+===
+title: Body2LeftArm
+position: -2333,549
+---
+<<spriteEmote SpriteL ReiGoober>>
+Cadaver: They gave me a list of anyone who was worth anything. 
+Cadaver: And this was a especially private affair so the room was full of geniuses with so much to tell. 
+Cadaver: Not my usual crowd.
+Cadaver: I'm used to corrupt politicians and anonymous tips.
+Cadaver: But there was someone who wasen't on the list. 
+Cadaver: I needed to know why..
+//Jumps to next transtion
+<<if $TP == 0>>
+ <<jump INTrans1>>
+<<elseif $TP ==1 >>
+ <<jump INTrans2>>
+<<elseif $TP ==2 >>
+ <<jump INTrans3>>
+<<elseif $TP ==3 >>
+ <<jump INTrans4>>
+<<elseif $TP ==4 >>
+ <<jump INTrans5>>
+<<endif>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+===
+title: Body2RightArm
+position: -2084,554
+---
+<<spriteEmote SpriteL ReiGoober>>
+Cadaver: My head is going to split apart..one drink doesn't normally do this.
+Cadaver: I can hold my liquor with the best of them, this had to be something else...
+Cadaver: Best to leave while I still can..
+Cadaver: The doors are locked.. even the back entrance won't budge.
+
+//Jumps to next transtion
+<<if $TP == 0>>
+ <<jump INTrans1>>
+<<elseif $TP ==1 >>
+ <<jump INTrans2>>
+<<elseif $TP ==2 >>
+ <<jump INTrans3>>
+<<elseif $TP ==3 >>
+ <<jump INTrans4>>
+<<elseif $TP ==4 >>
+ <<jump INTrans5>>
+<<endif>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+===
+title: Body2LeftLeg
+position: -1870,548
+---
+<<spriteEmote SpriteL ReiGoober>>
+Cadaver: Something was definitely in those drinks.
+Cadaver: Not enough to take me down..
+Cadaver: The others start to drop like flies..
+Cadaver: There's nothing I can do for them.
+Cadaver: I have to get out of here..
+Cadaver: Maybe I can drag a couple of them out with me.
+//Jumps to next transtion
+<<if $TP == 0>>
+ <<jump INTrans1>>
+<<elseif $TP ==1 >>
+ <<jump INTrans2>>
+<<elseif $TP ==2 >>
+ <<jump INTrans3>>
+<<elseif $TP ==3 >>
+ <<jump INTrans4>>
+<<elseif $TP ==4 >>
+ <<jump INTrans5>>
+<<endif>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+===
+title: Body2RightLeg
+position: -1625,556
+---
+<<spriteEmote SpriteL ReiGoober>>
+Cadaver: I almost didn't notice.
+Cadaver: The entry door cracks open behind that girl in the sundress as she slumps to the ground.
+Cadaver: I see them before they see me..a surgical faced weirdo..
+Cadaver: I have a chance as long as they don't see me.
+Cadaver: This freak cuts her throat and moves to the next person before I can get my bearings.
+Cadaver: I trip and they turn to me.
+//Jumps to next transtion
+<<if $TP == 0>>
+ <<jump INTrans1>>
+<<elseif $TP ==1 >>
+ <<jump INTrans2>>
+<<elseif $TP ==2 >>
+ <<jump INTrans3>>
+<<elseif $TP ==3 >>
+ <<jump INTrans4>>
+<<elseif $TP ==4 >>
+ <<jump INTrans5>>
+<<endif>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+===
+title: Body2Head
+position: -1371,545
+---
+<<spriteEmote SpriteL ReiGoober>>
+Cadaver: Fancy waist coat splattered in blood...black hair..
+Cadaver: Dead eyes..he looks annoyed and confused why I'm standing..ha..
+Cadaver: ha..I get that a lot..
+Cadaver: I run for the door but he catches me first.
+Cadaver: My throat stings..
+Cadaver: God it hurts..
+Cadaver: He doesn't bother to finish the job..I have watch him turn to another and continue..
+Cadaver: I hope my bloody gasping aleast annoys him..
+Cadaver: Wanker leaving me to bleed out... 
+Cadaver: god I hate conferences.
+//Jumps to next transtion
+<<if $TP == 0>>
+ <<jump INTrans1>>
+<<elseif $TP ==1 >>
+ <<jump INTrans2>>
+<<elseif $TP ==2 >>
+ <<jump INTrans3>>
+<<elseif $TP ==3 >>
+ <<jump INTrans4>>
+<<elseif $TP ==4 >>
+ <<jump INTrans5>>
+<<endif>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+===
+title: Body3LeftArm
+position: -2332,708
+---
+<<spriteEmote SpriteL LasonGoober>>
+Cadaver: I kept my plan quiet so he wouldn’t see me coming but it meant I had very little to go off.
+Cadaver: The date and location of the convention but nothing more. The original plan was to break into his office, find where he was storing it and disappear back to a neighbouring island before he noticed. 
+Cadaver: It was a shit plan. 
+//Jumps to next transtion
+<<if $TP == 0>>
+ <<jump INTrans1>>
+<<elseif $TP ==1 >>
+ <<jump INTrans2>>
+<<elseif $TP ==2 >>
+ <<jump INTrans3>>
+<<elseif $TP ==3 >>
+ <<jump INTrans4>>
+<<elseif $TP ==4 >>
+ <<jump INTrans5>>
+<<endif>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+
+===
+title: Body3RightArm
+position: -2074,706
+---
+<<spriteEmote SpriteL LasonGoober>>
+Cadaver: God it's windy. If I lose my balance even once, all of this will be for nothing. 
+Cadaver: It doesn’t matter how good I am on a board if I fall off and it gets washed away in the waves.
+Cadaver: I was going to wait till the weather calmed down but that message gave me no choice. 
+Cadaver: The island isn't too far away. I’ve surfed marathons before and this is child’s play in comparison.
+Cadaver: I wouldn’t be surprised if he chose the location just to mock me.
+Cadaver: Jokes on him, this is the one thing that bastard could never beat me at.
+//Jumps to next transtion
+<<if $TP == 0>>
+ <<jump INTrans1>>
+<<elseif $TP ==1 >>
+ <<jump INTrans2>>
+<<elseif $TP ==2 >>
+ <<jump INTrans3>>
+<<elseif $TP ==3 >>
+ <<jump INTrans4>>
+<<elseif $TP ==4 >>
+ <<jump INTrans5>>
+<<endif>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+===
+title: Body3LeftLeg
+position: -1879,698
+---
+<<spriteEmote SpriteL LasonGoober>>
+Cadaver: A friend of a colleague received an invitation. 
+Cadaver: They turned out to be smarter than I thought and smelt something fishy about it.
+Cadaver: Apparently, some random nameless investor showcasing a new rare discovery with no prior investment in the community right after I went silent about my work only seemed odd to her. 
+Cadaver: My peers tend to be idiots when it comes to anything that can't be found in the sea.
+Cadaver: Once this is done maybe I should reach out to thank her.
+Cadaver: She might be worth working with. 
+
+//Jumps to next transtion
+<<if $TP == 0>>
+ <<jump INTrans1>>
+<<elseif $TP ==1 >>
+ <<jump INTrans2>>
+<<elseif $TP ==2 >>
+ <<jump INTrans3>>
+<<elseif $TP ==3 >>
+ <<jump INTrans4>>
+<<elseif $TP ==4 >>
+ <<jump INTrans5>>
+<<endif>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+===
+title: Body3RightLeg
+position: -1634,704
+---
+<<spriteEmote SpriteL LasonGoober>>
+Cadaver: He is using it as bait. My entire life’s work.
+Cadaver: He didn’t even steal it for the right reasons. I would accept jealousy or a scheme to make money showing off a never-seen-before creature.
+Cadaver: But he’s too full of himself and too rich to bother with either. 
+Cadaver: Honestly, it was probably out of spite and convenience.
+Cadaver: I might have well handed it to him tied up with a bow. 
+Cadaver: We’ve spent too many years trying to one-up each other for him not to take it. 
+
+//Jumps to next transtion
+<<if $TP == 0>>
+ <<jump INTrans1>>
+<<elseif $TP ==1 >>
+ <<jump INTrans2>>
+<<elseif $TP ==2 >>
+ <<jump INTrans3>>
+<<elseif $TP ==3 >>
+ <<jump INTrans4>>
+<<elseif $TP ==4 >>
+ <<jump INTrans5>>
+<<endif>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+===
+title: Body3Head
+position: -1372,692
+---
+<<spriteEmote SpriteL LasonGoober>>
+Cadaver: I can hear them all on the other side of the curtain. Chatting and laughing over drinks, just waiting for the show to start.
+Cadaver: I doubt that's going to happen now. The moment he opens the display curtains they’ll see me propped against the enclosure trying not to bleed out. 
+Cadaver: If the music wasn’t so loud I’d call out to warn them. 
+Cadaver: Or at least to turn it down. The Ambystoma Gaudata doesn't do well with loud volumes. 
+Cadaver: If I’m going to die for my work they might as well take care of it properly… 
+Cadaver: Maybe they’ll notice when my blood starts to reach under the curtain.
+Cadaver: Wait till this hits the press.
+Cadaver: “Famed marine expert found dead next to greatest discover, foul play suspected-”
+Cadaver: “-Wait I’m being told that we have been handed a large filthy bribe. No foul play is suspected, They probably just tripped and fell on a knife. What a loser!”
+Cadaver: “Up next: famous billionaire definitely not guilty of murder” 
+Cadaver: I couldn't even get the enclosure open before he caught me.
+Cadaver: It’s looking at me from the enclosure, its little hands scratching at the glass. 
+Cadaver: I bought treats for it in my pocket but my hands are too numb to get them. 
+Cadaver: I'm cold.
+
+//Jumps to next transtion
+<<if $TP == 0>>
+ <<jump INTrans1>>
+<<elseif $TP ==1 >>
+ <<jump INTrans2>>
+<<elseif $TP ==2 >>
+ <<jump INTrans3>>
+<<elseif $TP ==3 >>
+ <<jump INTrans4>>
+<<elseif $TP ==4 >>
+ <<jump INTrans5>>
+<<endif>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+===
+title: NewsReport
+position: -563,-178
+---
+//<<spriteEmote SpriteM Map>>
+//show newx report and evidence poliroid
+<<declare $PUNCOUNT = 1>>
+<<SceneChange ButtonManager Interrogation>>
+<<disableButton ButtonManager StartGame>>
+Frankenstein For Hire Demo Edition!
+<<spriteEmote SpriteM News>>
+Radio: GRAVE SITUATION AT MARINE CONVENTION: Killer at large after 20 guests are found murdered and dismembered at a conference for a never-before-seen amphibian.
+Radio: Authorities say they have all hands on deck to identify and bring this killer to justice but have stayed tight-lipped about any potential motive.
+Radio: Police Chief Boss F. Guy overseeing the investigation has stated “One thing for shore, this whole ruckus was premeditated, I haven't seen something more clearly planned throughout all my years on the force."
+Radio: It is a race against the clock in case the killer potentially strikes again!
+Radio: Up next! Marriage at First Bite: Aussie vampire hunters hunt for true lo-- //is cut off
+<<spriteClear SpriteR>> 
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: Tight Lipped? Tight-lipped mY ASS!! We don't have anything to go off!
+Chase: My first big case post-promotion and its twenty bodies tossed together like a salad and dumped in a bunch of freezers!
+Chase: I can’t work miracles. They should have hired someone else. 
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+<<declare $IntroSeen = false>>
+<<jump Start1>>
+
+===
+title: InterrogationIntro
+position: -632,145
+---
+//change to skip if seen before with a count
+//The cadaver sits on the other side of the one-way glass. It is slumped over the table and whoever escorted it in is nowhere to be seen.
+//REWRITE TO SUIT CADAVAR AND PERSON
+<<disableButton ButtonManager Endassembly>>
+<<BodyBuild ButtonManager false>>
+<<SceneChange ButtonManager Interrogation>>
+<<if $IntroSeen is false>>
+ <<spriteEmote SpriteR ChaseGoober>>
+ Chase: Okay.
+ Chase: What now?
+ <<spriteClear SpriteR>>
+ <<spriteEmote SpriteL EchoGoober>>
+ Echo: ah..normal detective stuff I’d assume?
+ Echo: The moment the cadavers start to move it's your turn. We are officially out of my domain of expertise. 
+ <<spriteClear SpriteL>>
+ <<spriteEmote SpriteR ChaseGoober>>
+ Chase: Oh..
+<<spriteClear SpriteR>>
+ <<spriteEmote SpriteL EchoGoober>>
+ Echo: I’m not really good with all the..talking stuff either. I’d probably just freak them out and that wouldn’t get us anywhere.
+ <<spriteClear SpriteL>>
+ <<spriteEmote SpriteR ChaseGoober>>
+ Chase: I’m sure it's not that bad-
+ <<spriteClear SpriteR>>
+ <<spriteEmote SpriteL EchoGoober>>
+ Echo: Also legally speaking I’m not sure if I’m allowed to? 
+ Echo: No clue what kind of external contractor they have me listed as and where my jurisdiction stops.
+ <<spriteClear SpriteL>>
+ <<spriteEmote SpriteR ChaseGoober>>
+ Chase: Ahh fair. The accountants probably don’t have “necromancer” as an option.
+ Chase: Can you stay at least? I’m not super keen on doing this alone..
+ <<spriteClear SpriteR>>
+ <<spriteEmote SpriteL EchoGoober>>
+ Echo: Sure. I won’t tell you if you don't.
+  <<spriteClear SpriteL>>
+ <<spriteEmote SpriteR ChaseGoober>>
+ Chase: Let's get this show on the road then.
+ <<set $IntroSeen = true>>
+ <<declare $SP = false>>
+ <<endif>>
+//Run LimbCheckSet 
+
+
+<<declare $BodyJump = "empty">>
+//<<LimbsSet LimbCheckControl>>
+
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+<<jump InterrogationStart>>
+
+===
+title: InterrogationStart
+position: -618,303
+---
+
+//alter versions for later plays
+<<if $SP is false >>
+ The cadaver twists towards the door when it opens. Chase and Echo sit across from it and its milky white eyes follow them unblinking. 
+ Mismatched limbs go into wrong-sized joints and Echo’s neat uniform sticking holds them in place.
+ They were minimal so more attempts to rebuild the victims could be made. 
+ <<spriteEmote SpriteR ChaseGoober>>
+ Chase: Hi? I’m detective Chase close. I need to talk to you about the conference you attended.
+ The cadaver is unresponsive, its gaze stuck on Chase.
+ <<spriteClear SpriteR>>
+ <<spriteEmote SpriteL EchoGoober>>
+ Echo: First rule of resurrection Chase. Their body is jumbled and so are their memories. Keep it simple.
+ Echo taps on the table and the cadaver’s eye slides to them.
+ Echo: How did you die?
+ <<set $SP = true>>
+<<else>>
+ <<spriteClear SpriteL>>
+ <<spriteEmote SpriteR ChaseGoober>>
+ Chase: I’m detective Chase close. How did you die?
+ <<endif>>
+//Transtion tracker
+<<declare $TP =0>> 
+ 
+//limbs slot code
+<<LimbsSlot LimbCheckControl LeftArm>>
+//jumps to limb node
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+<<jump {$BodyJump}>>
+
+
+===
+title: INTrans1
+position: -613,449
+---
+//randomise between dialogue /change if seen till all are seen then randomise
+<<set $TP =$TP +1>>
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: Well that was… a lot.
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo: There’s still more to come.
+The cadaver starts to speak again.
+ 
+///run slot array code
+//limbs slot code
+<<LimbsSlot LimbCheckControl RightArm>>
+//jumps to limb node
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+<<jump {$BodyJump}>>
+//<<jump INTrans2>>
+
+===
+title: INTrans2
+position: -610,593
+---
+<<set $TP =$TP +1>>
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: Does the weirdness of talking to a corpse ever wear off?
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo: How’s it any different from talking to a person? 
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: ALL OF IT?? I know how to talk to people..
+Chase: This makes no sense to me.
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo: Isn’t that just how normal conversations are. They are actually more straightforward like this. 
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: ..I’ll take your word for it. 
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo: Let's get back to it then.
+//stopping  here?
+
+///run slot array code
+//limbs slot code
+<<LimbsSlot LimbCheckControl LeftLeg>>
+//jumps to limb node
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+<<jump {$BodyJump}>>
+//<<jump INTrans3>>
+
+===
+title: INTrans3
+position: -609,732
+---
+<<set $TP =$TP +1>>
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: What happens once we’re done with them?
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo: Normally I bring them back intact enough to go back to their families.
+Echo: I don’t see why it would be any different here.
+Echo: Don’t worry about it for now. Back to work Mr detective.
+///run slot array code
+//limbs slot code
+<<LimbsSlot LimbCheckControl RightLeg>>
+//jumps to limb node
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+<<jump {$BodyJump}>>
+//<<jump INTrans4>>
+===
+title: INTrans4
+position: -605,885
+---
+<<set $TP =$TP +1>>
+Chase: Should we have brought snacks for this?
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: This feels more like watching a show than an interrogation. 
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo: Is popcorn normally a part of your investigation process?
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: Sometimes….
+///run slot array code
+//limbs slot code
+<<LimbsSlot LimbCheckControl Head>>
+//jumps to limb node
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+<<jump {$BodyJump}>>
+//<<jump INTrans5>>
+===
+title: INTrans5
+position: -602,1040
+---
+<<set $TP =$TP +1>>
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: I think that's it..
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo: Yeah. It doesn't look like you're going to get any more out of this one. 
+Echo: I’ll take them apart and then we can have another go. However many tries it takes.
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: It’s not going to hurt them is it?
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo: No they’re beyond that now. I wouldn’t be doing this if it did. 
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: Good. Let me help move them back to the surgery.
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo: Not so creeped out by them any more? 
+<<spriteClear SpriteL>>
+<<spriteEmote SpriteR ChaseGoober>>
+Chase: I mean..They're just people like you said. Only a bit jumbled together.  
+<<spriteClear SpriteR>>
+<<spriteEmote SpriteL EchoGoober>>
+Echo: And we will set them to right once this is all over.
+Echo: Now, let's get back to work.
+
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+<<jump InterrogationEnd>>
+
+===
+title: InterrogationEnd
+position: -389,1189
+---
+
+<<set $TP = 0>>
+<<if $BP1Count is 5>>
+ Interrogation report no: Cadaver 1 profile complete.
+ <<else>>
+ Interrogation report no: Cadaver 1 profile incomplete.  
+ <<endif>>
+<<if $BP2Count is 5>>
+ Interrogation report no: Cadaver 2 profile complete.
+ <<else>>
+ Interrogation report no: Cadaver 2 profile incomplete. 
+ <<endif>>
+<<if $BP3Count is 5>>
+ Interrogation report no: Cadaver 3 profile complete.
+ <<else>>
+ Interrogation report no: Cadaver 3 profile incomplete. 
+ <<endif>>
+<<if $AllParts is 15>>
+ Interrogation report no: All possible information for cadaver interrogations has been gathered.
+ <<else>>
+ Interrogation report no: More cadavar information require. 
+ <<endif>>
+<<if $PersonInterragation is 1>>
+   Interrogation report no: ⅓ Victims interviewed.
+
+ <<elseif $PersonInterragation is 2>>
+    Interrogation report no: ⅔ Victims interviewed.
+
+ <<elseif $PersonInterragation is 3>>
+     Interrogation report no: All victims have been interviewed.
+    <<if $AllParts is 15>>
+     Interrogation report no: All possible investigations have been completed.
+     -> Chase: Time to solve this case!
+     <<jump END>>
+       <<endif>>
+<<endif>>    
+Interrogation report no: More investigations needed.
+<<spriteEmote SpriteL EchoGoober>>
+Echo: Back to the drawing board!
+<<SceneChange ButtonManager Body>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+<<jump TutorialBodyAssmble1>>
+
+===
+
+title: Body1RESTORED
+position: 208,702
+---
+TO BE ADDED
+
+//INTERRGATION COUNT
+<<set $VCB1 = $VCB1 + 1>>
+<<if $VCB1 is  1 >>
+ <<set $PersonInterragation = $PersonInterragation+1 >>
+<<endif>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+<<jump InterrogationEnd>>
+===
+title: Body2RESTORED
+position: 205,861
+---
+TO BE ADDED
+
+<<set $VCB2 = $VCB2 + 1>>
+<<if $VCB2 is  1 >>
+ <<set $PersonInterragation = $PersonInterragation+1 >>
+<<endif>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+<<jump InterrogationEnd>>
+===
+title: Body3RESTORED
+position: 205,1022
+---
+ TO BE ADDED
+
+<<set $VCB3 = $VCB3 + 1>>
+<<if $VCB3 is  1 >>
+ <<set $PersonInterragation = $PersonInterragation+1 >>
+<<endif>>
+
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+ <<jump InterrogationEnd>>
+===
+title: END
+position: -610,1384
+---
+ TO BE ADDED
+===
+title: LimbEmpty
+position: -908,244
+---
+//randomized comments
+
+<<if dice(5) is 1>>
+ The cadaver looks momentarily confused, staring down at stubs where more limbs should be. They looked pointedly at Echo.
+ <<spriteClear SpriteR>>
+ <<spriteEmote SpriteL EchoGoober>>
+ Echo: Relax, I’ll make sure I don’t forget it next time.
+ <<spriteClear SpriteL>>
+ <<spriteEmote SpriteR ChaseGoober>>
+ Cadaver:...
+<<elseif dice(5) is 2>>
+  The cadaver stares into the distance. It doesn't have anything to say.
+<<elseif dice(5) is 3>>
+ <<spriteClear SpriteL>>
+ <<spriteEmote SpriteR ChaseGoober>>
+  Chase: Looks like we’re missing some parts. We won’t be able to get a full interrogation like this.
+ <<spriteClear SpriteR>>
+ <<spriteEmote SpriteL EchoGoober>>
+  Echo: Better luck next time. 
+<<elseif dice(5) is 4>>
+  <<spriteClear SpriteL>>
+  Cadaver:...
+  <<spriteEmote SpriteL EchoGoober>>
+  Echo:....
+  <<spriteClear SpriteL>>
+  Cadaver:...
+  <<spriteEmote SpriteL EchoGoober>>
+  Echo:....
+  <<spriteClear SpriteL>>
+  <<spriteEmote SpriteR ChaseGoober>>
+  Chase: ?
+  <<spriteClear SpriteR>>
+  <<spriteEmote SpriteL EchoGoober>>
+  Echo: AH-fuck I blinked.
+  Echo: You win this round you corpsey bastard!
+  <<spriteClear SpriteL>>
+  <<spriteEmote SpriteR ChaseGoober>>
+  Chase: …Can you at least pretend to be doing your job?
+<<elseif dice(5) is 5>>
+  Cadaver:...
+  <<spriteClear SpriteL>>
+  <<spriteEmote SpriteR ChaseGoober>>
+  Chase: Would it talk more if we gave it some snacks?
+  <<spriteClear SpriteR>>
+  <<spriteEmote SpriteL EchoGoober>>
+  Echo: Bribery? Really? 
+  <<spriteClear SpriteL>>
+  <<spriteClear SpriteR>>
+  <<spriteClear SpriteM>>
+  Cadaver:..?
+  <<spriteEmote SpriteR ChaseGoober>>
+  Echo:...okay fine! We will try it later!
+
+<<endif>>
+
+<<if $TP == 0>>
+ <<jump INTrans1>>
+<<elseif $TP ==1 >>
+ <<jump INTrans2>>
+<<elseif $TP ==3 >>
+ <<jump INTrans4>>
+<<elseif $TP ==4 >>
+ <<jump INTrans5>>
+<<else>>
+ <<jump INTrans5>>
+<<endif>>
+<<spriteClear SpriteL>>
+<<spriteClear SpriteR>>
+<<spriteClear SpriteM>>
+===
